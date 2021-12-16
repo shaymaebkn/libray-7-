@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+
+  <title>My library.E </title>
+</head>
+<body>
+    <div class="all">
+        <img src="MY LIBRARY.E.svg" alt="">
+    <form id="form">
+        <div>
+            <h2><label for="titre">Titre</label></h2> 
+            <p class="error"></p>
+            <input id="titre" name="titre" type="text" >
+        </div><br>
+        <div>
+            <h2> <label for="auteur">Auteur</label></h2>
+            <p class="error"></p>
+            <input id="auteur" name="auteur" type="text" >
+        </div> <br>
+        <div>
+            <h2><label for="prix">Prix</label></h2>
+            <p class="error"></p>
+            <input id="prix" name="prix" type="text" >
+        </div><br>
+        <div>
+            <h2><label for="date de publication">Date de publication</label></h2>
+            <p class="error"></p><br>
+            <input id="date-de-publication" name="date de publication" type="date" >
+        </div> <br>   
+        <div>
+            <h2><label for="langue">Langue</label></h2>
+            <p class="error"></p><br>
+            <select id="langue" name="langue" >
+            <option disabled hidden selected value >sélectionner une langue</option>
+            <option value="Arabe">Arabe</option>
+            <option value="Anglais">Anglais</option>
+            <option value="Francais">Francais</option>
+            </select>
+        </div><br>
+
+        <div>
+            <h2><label for="type">Type</label></h2>
+            <p class="error"></p><br>
+            <div id="type-input">
+            <input type="radio" id="Roman" name="Selectionner" value="Roman">
+            <label for="Roman">Roman</label><br>
+            <input type="radio" id="Essai" name="Selectionner" value="Essai" >
+            <label for="Essai">Essai</label><br>
+            <input type="radio" id="Bande-Dessinée" name="Selectionner" value="Bande-Dessinée">
+            <label for="Bande-Dessinée">Bande-Dessinée</label>
+            </div>
+        </div><br>
+        <button type="submit" id="ajouterBtn"> Ajouter</button>
+        <input type="button" onclick="btnChanger()" value="Changer" id="changerBtn" ><br><br>
+    </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteur</th>
+                    <th>Prix</th>
+                    <th>Date de publication</th>
+                    <th>Langue</th>
+                    <th>Type</th>
+                    <th>supprimer ou editer votr choix</th>
+                </tr>
+            </thead>
+
+        </table>
+    </div>
+
+  <script src="java.js">  </script>
+
+
+
+</body>
+</html>

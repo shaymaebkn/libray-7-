@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Math-NS\ Library_1.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+.all{
+    background-color: bisque;
+    height: 800px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 0 20% 0 20%;
+    
+}
+th{
+    border-right:2px solid rgb(248, 248, 248) ;
+    width: 2%;
+}
+img{
+    margin-top: 2%;
+}
